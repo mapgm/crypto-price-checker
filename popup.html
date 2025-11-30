@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h3>🔍 Crypto Search</h3>
+    <div class="input-group">
+      <input type="text" id="symbolInput" placeholder="输入币种 (如 BTC, ETH)" autofocus>
+      <button id="searchBtn">搜索</button>
+    </div>
+    
+    <div id="resultArea" class="hidden">
+      <h2 id="priceDisplay">--</h2>
+      <p id="symbolDisplay">--</p>
+    </div>
+
+    <p id="errorMsg" class="hidden"></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
